@@ -1,0 +1,242 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.sidebar-setting {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.15),rgba(0,0,0,0.15)), url(background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: white;
+  width: 373px;
+  padding-top: 5px;
+  margin-bottom: 75px;
+}
+
+.sidebar__logo {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  position: relative;
+  color: #F3F3F3;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+  top:20px;
+
+}
+
+.sidebar__section--btn {
+  
+  height: 300px;
+  display: flex;
+  align-items: center;
+  border-style: none;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  margin-top: 30%;
+}
+
+.sidebar__Section1--btn,
+.sidebar__Section2--btn,
+.sidebar__Section3--btn {
+  margin: 0 10px;
+  background-color: lightgray;
+  width: 250px;
+  height: 80px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #6C6C6C;
+
+}
+
+.content {
+  display: flex;
+  width: fit-content;
+  height: 100%;
+  left: 30%;
+  top: 0;
+  position: absolute;
+  flex-direction: column;
+  
+}
+
+li {
+  margin-left: 100px;
+}
+
+.content__address {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  position: relative;
+  top: 171px;
+
+}
+.content__adress--homepage {
+  display: flex;
+  position: relative;
+  width: fit-content; 
+  height: fit-content;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.58);
+  margin-right: 5px;
+}
+
+.content__ratherthan {
+  color: rgba(0, 0, 0, 0.58);
+  display: flex;
+  position: relative;
+  width: 10px;
+  height: fit-content;
+  padding-top: 2px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 5px;
+}
+
+.content__address--Security-Information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  color: black;
+}
+
+.content__adress--homepage:hover,
+.content__address--Security-Information:hover
+{
+  text-decoration: underline;
+}
+
+.content__title {
+  display: flex;
+  top: 221px;
+  position: relative;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  
+  color: rgba(0, 0, 0, 0.58);
+}
+
+
+
+.content__main-content {
+  width: 100%;
+  position: relative;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  top: 280px;
+  color: rgba(0, 0, 0, 0.58);
+  line-height: 30.26px;
+  text-align: left;
+  
+}
+
+
+.content__subtitle {
+  margin-right: 18%;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  background: rgba(0, 0, 0, 0.85);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__coppyright,
+.footer__slogan {
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0 10px;
+}
+
+.footer__left-part,
+.footer__right-part {
+  display: flex;
+}
+
+.footer__left-part {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  
+}
+
+.footer__right-part{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-right: 50px;
+}
+
+.footer__right-part--twitter,
+.footer__right-part--location,
+.footer__right-part--contact {
+  width: 100%;
+  display: flex;
+  position: relative;
+  height: 40px;
+  padding: 0 10px;
+}
+

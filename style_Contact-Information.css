@@ -1,0 +1,227 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 11vh;
+  margin-top: 0;
+  border-style: none;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.08),rgba(0,0,0,0.08)50%), url(background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__logo {
+  width: fit-content;
+  height: 100%;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50px;
+  position: relative;
+  color: #F3F3F3;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+
+}
+
+.header__section--btn {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  margin-right: 20px;
+  border-style: none;
+
+}
+
+.header__Section1--btn {
+  margin: 0 10px;
+  background-color: lightgray;
+  width: 209px;
+  height: 50px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.58);
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  top: 20vh;
+  position: absolute;
+}
+
+.content__adress--homepage {
+  display: flex;
+  position: relative;
+  width: 100px; 
+  height: fit-content;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.58);
+}
+
+.content__ratherthan {
+  color: rgba(0, 0, 0, 0.58);
+  display: flex;
+  position: relative;
+  width: 10px;
+  height: fit-content;
+  padding-top: 2px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 5px;
+  margin-left: 3px;
+}
+
+
+.content__address--Contact-Information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  color: black;
+}
+
+.content__adress--homepage:hover,
+.content__address--Security-Information:hover
+{
+  text-decoration: underline;
+}
+
+.content__title {
+  display: flex;
+  margin-top: 50px;
+  position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  margin-left: 70px;
+  color: rgba(0, 0, 0, 0.58);
+}
+
+.content__address {
+  width: 100%;
+  display: flex;
+  margin-left: 70px;
+}
+
+.content__main-content {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  margin: 120px 0 0 70px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  flex-direction: column;
+  display: flex;
+  justify-content: left;
+  color: rgba(0, 0, 0, 0.58);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 50px;
+
+  color: rgba(0, 0, 0, 0.58);
+
+
+}
+
+.content__main-content--p1,
+.content__main-content--p2,
+.content__main-content--p3 {
+  margin-top: 20px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  background: rgba(0, 0, 0, 0.85);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__coppyright,
+.footer__slogan {
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0 10px;
+}
+
+.footer__left-part,
+.footer__right-part {
+  display: flex;
+}
+
+.footer__left-part {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  
+}
+
+.footer__right-part{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-right: 50px;
+}
+
+.footer__right-part--twitter,
+.footer__right-part--location,
+.footer__right-part--contact {
+  width: 100%;
+  display: flex;
+  position: relative;
+  height: 40px;
+  padding: 0 10px;
+}
+

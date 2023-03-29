@@ -262,7 +262,7 @@ h4 {
 .footer__right-part--twitter,
 .footer__right-part--location,
 .footer__right-part--contact {
-  width: 100%;
+  width: fit-content;
   display: flex;
   position: relative;
   height: 40px;

@@ -79,7 +79,7 @@
 .content {
   display: flex;
   width: fit-content;
-  height: 400vh;
+  height: 270vh;
   left: 30%;
   position: absolute;
   flex-direction: column;

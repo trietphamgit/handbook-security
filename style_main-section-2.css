@@ -79,7 +79,7 @@
 .content {
   display: flex;
   width: fit-content;
-  height: 385vh;
+  height: 400vh;
   left: 30%;
   position: absolute;
   flex-direction: column;
@@ -223,6 +223,7 @@ li {
   background: rgba(0, 0, 0, 0.85);
   align-items: center;
   justify-content: space-between;
+  z-index: 1000;
 }
 
 .footer__coppyright,
@@ -278,3 +279,11 @@ li {
   transition: 0.4s ease-in-out;
 } 
 
+@media only screen and (max-width: 600px) {
+  .content, 
+  .footer,
+  .sidebar-setting{
+    width: 100%;
+    margin-bottom:15px;
+  }
+}

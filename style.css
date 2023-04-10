@@ -155,7 +155,7 @@ body{
 
 .security-info:hover,
 .our-value-btn:hover {
-  transform: scale(1.1);
+  opacity: 70%;
   z-index: 10;
 }
 
@@ -163,7 +163,7 @@ body{
 .icons-location:hover,
 .icons-sms:hover
  {
-  transform: scale(1.3);
+  transform: scale(1.3) ;
   z-index: 10;
 }
 

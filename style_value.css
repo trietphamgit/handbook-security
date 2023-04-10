@@ -3,10 +3,11 @@
   margin: 0;
 }
 
-body{
-  height: 109vh;
+.mainbody {
+  height: 1750px;
+  display: flex;
+  position: relative;
 }
-
 
 .header {
   width: 100%;
@@ -83,7 +84,41 @@ body{
   flex-direction: column;
 }
 
+h3 {
+  font-size: 25px;
+  color:rgba(0, 0, 0, 0.58);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 30px;
+  text-align: center;
+  margin: 30px;
+}
+
+h5 {
+  color:rgba(0, 0, 0, 0.58);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+}
  
+.content__overview {
+  color:rgba(0, 0, 0, 0.58);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+  width: fit-content;
+  text-align: center;
+  margin: 20px;
+}
 .content__address {
   display: flex;
   position: relative;
@@ -137,7 +172,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 28px;
   font-family: 'Inter';
   font-style: normal;
@@ -146,15 +181,31 @@ body{
 
 }
 
+.achievement-content{
+  width: fit-content;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin: 10px 80px;
+  font-size: 23px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.58);
+  text-align: center;
+  line-height: 50px;
+
+}
+
 .content__achivement-main {
 position: relative;
-width: 1000px;
+width: 100%;
 display: flex;
 text-align: center;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 25px;
+font-size: 23px;
 line-height: 30px;
 color: rgba(0, 0, 0, 0.58);
 margin-left: 120px;
@@ -205,13 +256,11 @@ margin-left: 120px;
 }
 
 .content__value {
-  width: 100%;
-
   margin: 35px 0;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 23px;
   line-height: 30px;
   flex-wrap: nowrap;
   color: #6C6C6C;
@@ -227,7 +276,6 @@ margin-left: 120px;
   flex-direction: column;
   column-gap: 5vh;
   position: relative;
-  height: 70vh;
 }
 
 .value_main-p1,
